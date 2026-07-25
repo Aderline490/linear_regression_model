@@ -19,16 +19,14 @@ population) for **all 54 African countries, 2000–2022**, and merges them into
 for this mission — not the house-price dataset covered in class.
 
 ## Live API
-- **Swagger UI (interactive docs):** `<PASTE_YOUR_RENDER_URL_HERE>/docs`
-- **Predict endpoint:** `POST <PASTE_YOUR_RENDER_URL_HERE>/predict`
-- **Retrain endpoint:** `POST <PASTE_YOUR_RENDER_URL_HERE>/retrain` (multipart CSV upload)
+- **Swagger UI (interactive docs):** `https://africa-education-api.onrender.com/docs`
+- **Predict endpoint:** `POST https://africa-education-api.onrender.com/predict`
+- **Retrain endpoint:** `POST https://africa-education-api.onrender.com/retrain` (multipart CSV upload)
 
-> Deploy `summative/API` to [Render](https://render.com) (see below) and paste the resulting
-> public URL above and in `summative/FlutterApp/lib/main.dart` (`kApiBaseUrl`).
+
 
 ## Video Demo
-`<PASTE_YOUTUBE_LINK_HERE>` (≤ 7 minutes: mobile app prediction + Swagger UI tests + model
-performance discussion)
+`<PASTE_YOUTUBE_LINK_HERE>`
 
 ## Repository Structure
 ```
@@ -95,9 +93,8 @@ and hot-swaps the in-memory model so `/predict` immediately reflects the update.
 cd linear_regression_model/summative/FlutterApp
 flutter pub get
 # 1. Update kApiBaseUrl in lib/main.dart with your deployed Render URL
-# 2. Run on a connected device/emulator, or in Chrome:
+# 2. Run on a connected device/emulator:
 flutter run                # pick a device
-flutter run -d chrome      # or run as a web app
 ```
 The app is a single page: numeric fields for every model input (year, GDP per capita, education
 spend, under-5 mortality, rurality, health spend, internet access, unemployment, life

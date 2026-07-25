@@ -3,9 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-// TODO: after deploying the API (Task 2) to Render, replace this with the
-// public URL, e.g. "https://africa-education-api.onrender.com"
-const String kApiBaseUrl = "http://127.0.0.1:8000";
+const String kApiBaseUrl = "https://africa-education-api.onrender.com";
 
 const Color kBrandPrimary = Color(0xFF1F7A5C);
 const Color kBrandSecondary = Color(0xFFE8A33D);
