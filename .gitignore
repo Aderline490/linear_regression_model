@@ -1,0 +1,21 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.cache/
+
+# Flutter
+summative/FlutterApp/build/
+summative/FlutterApp/.dart_tool/
+summative/FlutterApp/.flutter-plugins
+summative/FlutterApp/.flutter-plugins-dependencies
+summative/FlutterApp/.pub-cache/
+summative/FlutterApp/ios/Pods/
+summative/FlutterApp/android/.gradle/
+summative/FlutterApp/android/local.properties
+summative/FlutterApp/.idea/
+summative/FlutterApp/*.iml
+
+# OS
+.DS_Store
