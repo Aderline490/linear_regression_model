@@ -26,7 +26,7 @@ for this mission — not the house-price dataset covered in class.
 
 
 ## Video Demo
-`<PASTE_YOUTUBE_LINK_HERE>`
+https://youtu.be/6FWYRHOJcWc
 
 ## Repository Structure
 ```
